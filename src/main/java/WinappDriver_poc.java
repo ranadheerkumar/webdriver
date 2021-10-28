@@ -15,9 +15,9 @@ public class WinappDriver_poc {
         Thread.sleep(3000);
 
         //closing the WinAppDriver application
-        Runtime rt = Runtime.getRuntime();
+  //      Runtime rt = Runtime.getRuntime();
 
-        rt.exec("taskkill /F /IM WinAppDriver.exe");
+      //  rt.exec("taskkill /F /IM WinAppDriver.exe");
 
       /*  String path = "C:\\Program Files\\Windows Application Driver\\WinAppDriver.exe";
         File file = new File(path);

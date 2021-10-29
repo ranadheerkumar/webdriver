@@ -7,7 +7,7 @@
 pool:
   name: Default
   demands:
-   - agent.name -equals winappdriver 
+   - agent.name -equals winappagent 
 steps:
 - task: Maven@3
   inputs:

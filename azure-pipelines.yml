@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 
-
 pool:
-  vmImage: winappagent
-
+  name: Default
+  demands:
+   - agent.name -equals winappagent 
 steps:
 - task: Maven@3
   inputs:

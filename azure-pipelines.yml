@@ -18,8 +18,4 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'clean install'
-
-- task: Windows Application Driver@0
-  inputs:
-    OperationType: 'Start'
+    goals: 'clean'

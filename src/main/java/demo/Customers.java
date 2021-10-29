@@ -1,3 +1,4 @@
+/*
 package demo;
 
 import javax.persistence.*;
@@ -72,3 +73,4 @@ public class Customers {
         this.dateofbirth = dateofbirth;
     }
 }
+*/

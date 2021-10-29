@@ -1,3 +1,4 @@
+/*
 package demo;
 
 public class CustomersDTO {
@@ -56,3 +57,4 @@ public class CustomersDTO {
         this.dateofbirth = dateofbirth;
     }
 }
+*/

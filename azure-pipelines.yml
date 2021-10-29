@@ -6,7 +6,7 @@
 
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: winappagent
 
 steps:
 - task: Maven@3
